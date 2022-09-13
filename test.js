@@ -22,6 +22,20 @@ bot.on('message', (message) => {
   //* bot.setControlState('back', true)
 })
 
+//* Log errors and kick reasons
 bot.on('kicked', console.log)
 
 bot.on('error', console.log)
+
+//* Auto reconnect
+bot.on('end', (reason) => {
+  console.log("Bot ended")
+  const bot = mineflayer.createBot({
+    host: creative.ultravanilla.world,
+    //* port: 
+    username: Fuad_R,
+    //* password: ,
+    version: "1.18.2",
+    //* verbose: true
+  })
+})
