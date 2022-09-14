@@ -40,8 +40,6 @@ bot.on('end', (reason) => {
   })
 })
 
-inventoryViewer(bot)
-
 let options = {
   port: 3008,
   //* webPath: PATH,
