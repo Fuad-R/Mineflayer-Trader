@@ -39,3 +39,18 @@ bot.on('end', (reason) => {
     //* verbose: true
   })
 })
+
+inventoryViewer(bot)
+
+let options = {
+  port: 3008,
+  //* webPath: PATH,
+  //* express: EXPRESS,
+  //* app: APP,
+  http: HTTP,
+  //* io: IO,
+  startOnLoad: True,
+  //* windowUpdateDebounceTime: INT
+}
+
+inventoryViewer(bot, options)
