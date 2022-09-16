@@ -20,7 +20,6 @@ const bot = mineflayer.createBot({
     mineflayerViewer(bot, { port: 3007, firstPerson: false, viewDistance: 16 })
   })
 
-
 bot.on('message', (message) => {
   console.log(message.toAnsi())
   //* bot.setControlState('back', true)
