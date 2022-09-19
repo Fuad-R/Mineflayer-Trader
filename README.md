@@ -1,4 +1,4 @@
-**dependencies**
+**Dependencies**
 
     mineflayer: ^4.4.0
     mineflayer-pathfinder: ^2.3.3
