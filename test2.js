@@ -7,6 +7,7 @@ const { GoalNear } = require('mineflayer-pathfinder').goals
 const Movements = require('mineflayer-pathfinder').Movements
 const pathfinder = require('mineflayer-pathfinder').pathfinder
 
+
 const bot = mineflayer.createBot({
     host: 'creative.ultravanilla.world', //! minecraft server ip
     username: 'Fuad_R', //! minecraft username
