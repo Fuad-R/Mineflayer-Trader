@@ -2,8 +2,10 @@ const mineflayer = require('mineflayer')
 const mineflayerViewer = require('prismarine-viewer').mineflayer
 const inventoryViewer = require('mineflayer-web-inventory')
 
-const { pathfinder, Movements } = require('mineflayer-pathfinder')
 const { GoalBlock } = require('mineflayer-pathfinder').goals
+const { GoalNear } = require('mineflayer-pathfinder').goals
+const Movements = require('mineflayer-pathfinder').Movements
+const pathfinder = require('mineflayer-pathfinder').pathfinder
 
 const bot = mineflayer.createBot({
     host: 'creative.ultravanilla.world', //! minecraft server ip
