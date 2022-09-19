@@ -8,8 +8,8 @@ dependencies
     
 To install all these do:
 
-    Npm install mineflayer
-    Npm install mineflayer-pathfinder
-    Npm install mineflayer-web-inventory
-    Npm install prismarine-entity
-    Npm install prismarine-viewer
+    npm install mineflayer
+    npm install mineflayer-pathfinder
+    npm install mineflayer-web-inventory
+    npm install prismarine-entity
+    npm install prismarine-viewer
