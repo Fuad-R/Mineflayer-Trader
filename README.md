@@ -1,3 +1,6 @@
+img src="https://img.shields.io/badge/Total%20Size-31.4%20MB-informational"
+
+
 **dependencies**
 
     mineflayer: ^4.4.0
